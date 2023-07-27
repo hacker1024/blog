@@ -1,0 +1,16 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: Josh's blog
+theme: stack
+params:
+  sidebar:
+    avatar:
+      enable: true
+      local: false
+      src: https://avatars.githubusercontent.com/u/20849728
+  footer:
+  widgets:
+    homepage:
+      - type: tag-cloud
+        params:
+          limit: 10
