@@ -26,7 +26,7 @@ stdenv.mkDerivation {
 
   nativeBuildInputs = [ hugo ];
 
-  postUnpack = ''
+  prePatch = ''
     ${externalSetup}
   '';
 
