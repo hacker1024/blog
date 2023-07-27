@@ -131,7 +131,7 @@ Both Nix and colcon have their own benefits and drawbacks in various situations.
   package itself, and prevents undeclared system software from being seen by the
   build system.
 - **Nix has a rich tooling ecosystem.** Nix packages can be easily integrated
-  into NixOS systems, and CI/CD is well supported by [Hydra](nixos.org/hydra).
+  into NixOS systems, and CI/CD is well supported by [Hydra](https://nixos.org/hydra).
 
 ### Reasons to use colcon
 
