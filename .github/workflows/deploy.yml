@@ -15,7 +15,7 @@ jobs:
           nix_path: nixpkgs=channel:nixos-unstable
       - uses: DeterminateSystems/magic-nix-cache-action@main
       - run: nix-build
-      - uses: actions/upload-pages-artifact@2
+      - uses: actions/upload-pages-artifact@v2
         with:
           path: result/share/blog/www
       
