@@ -33,7 +33,7 @@ stdenv.mkDerivation {
   buildPhase = ''
     runHook preBuild
 
-    hugo
+    hugo --gc --minify
 
     runHook postBuild
   '';
